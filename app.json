@@ -1,13 +1,14 @@
 {
   "name": "Flask Facebook Messenger Bot",
-  "description": "A boilerplate/skeleton for a Flask based facebook messenger bot, which can easily be deployed to Heroku.",
+  "description": "A lmgtfy facebook messenger bot based on Flask deployable on Heroku.",
   "image": "heroku/python",
-  "repository": "https://github.com/gmolveau/flask-messenger-bot",
+  "repository": "https://github.com/gmolveau/flask-lmgtfy-messenger-bot",
   "keywords": [
     "python",
     "flask",
     "facebook",
-    "messenger"
+    "messenger",
+    "lmgtfy"
   ],
   "env": {
     "VERIFY_TOKEN": {

@@ -1,7 +1,7 @@
-# Flask boilerplate facebook messenger bot
+# Flask lmgtfy messenger bot
 
 ```bash
-git clone https://github.com/gmolveau/flask-messenger-bot
+git clone https://github.com/gmolveau/flask-lmgtfy-messenger-bot
 cd flask-messenger-bot
 virtualenv venv -p python3
 source venv/bin/activate
