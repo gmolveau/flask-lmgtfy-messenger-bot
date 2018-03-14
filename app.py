@@ -1,6 +1,6 @@
 from flask import Flask, request, Response
 import requests, json, random, os
-from urllib.parse import urlencode
+from urllib.parse import quote
 app = Flask(__name__)
 
 # env_variables
@@ -48,7 +48,7 @@ def webhook_dev():
 
 def handle_message(user_id, user_message):
     # DO SOMETHING with the user_message ... ¯\_(ツ)_/¯
-    r = requests.get("http://tinyurl.com/api-create.php?url=http://lmgtfy.com/?q="+urlencode(user_message))
+    r = requests.get("http://tinyurl.com/api-create.php?url=http://lmgtfy.com/?q="+quote(user_message))
     if r.status_code != 200:
         return "an error occured, sry ¯\_(ツ)_/¯"
     return r.text
