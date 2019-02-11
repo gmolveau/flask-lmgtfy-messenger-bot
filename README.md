@@ -1,11 +1,11 @@
 # Flask lmgtfy messenger bot
 
 ```bash
-git clone https://github.com/gmolveau/flask-lmgtfy-messenger-bot
-cd flask-messenger-bot
+git clone https://github.com/gmolveau/lmgtfy-messenger-bot
+cd lmgtfy-messenger-bot
 virtualenv venv -p python3
 source venv/bin/activate
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 
 # on unix
 gunicorn app:app
